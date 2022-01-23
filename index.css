@@ -1,13 +1,20 @@
 body{
+    background-color: cornsilk;
     margin: 0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 300px;
+}
+h1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 input
 {
     padding: 10px;
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
     border: 1px solid #5f9341;
     margin-bottom: 4px;
@@ -18,7 +25,7 @@ button
     padding: 10px 20px;
     background-color: #5f9341;
     font-weight: bold;
-    border: none;
+    
     border-radius: 10px;
 
 }
@@ -30,7 +37,7 @@ button:hover
 {
     color: #5f9341;
     background: white;
-    border: 1px solid #5f9341;
+    
 }
 ol
 {
@@ -42,12 +49,14 @@ li
     margin: 1.5em;
     font-weight: bold;
     
+    
 }
 #spanText
 {
+    display: inline-block;
+    width: 50%;
     color: black;
-    border: 1px black solid;
-    min-width: 100px;
+    
 }
 #edit_btn
 {
@@ -55,11 +64,10 @@ li
 }
 #editBtn
 {
-    background-color: aqua;
-    margin-left: 1em;
+    background-color: green;
+    margin-left: .5em;
 }
 #deleteBtn
 {
-    background-color: red;
-    margin-left: 1em;
+    background-color: brown;
 }
